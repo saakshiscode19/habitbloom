@@ -86,8 +86,8 @@ function LandingPage({ onGetStarted, onLogin }) {
             <span className="bg-emerald-100 px-2 rounded-xl">big wins.</span>
           </h1>
           <p className="text-slate-600 text-base md:text-lg">
-            A playful habit tracker with pastel heatmaps that make your streaks
-            impossible to ignore. Log once a day, watch your grid glow.
+          Build better habits one tiny step at a time.
+          Check in daily and watch consistency turn into progress.
           </p>
           <div className="flex flex-wrap gap-3">
             <button
@@ -1045,8 +1045,7 @@ function AuthOverlay({ mode, onClose, onAuthSuccess }) {
 
         {mode === "signup" && (
           <p className="text-[11px] text-slate-400 mt-2">
-            You may need to confirm your email depending on your Supabase
-            settings.
+          Email is sent to your EmailId. Confirm it and Login
           </p>
         )}
       </div>
